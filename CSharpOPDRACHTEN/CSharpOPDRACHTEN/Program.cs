@@ -8,8 +8,10 @@ namespace CSharpOPDRACHTEN
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Opdracht1 opdracht = new Opdracht1();
+            opdracht.Start();
         }
     }
 }
