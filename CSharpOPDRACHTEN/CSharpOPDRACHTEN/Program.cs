@@ -10,7 +10,7 @@ namespace CSharpOPDRACHTEN
     {
         public static void Main(string[] args)
         {
-            Opdracht3 opdracht = new Opdracht3();
+            Opdracht4 opdracht = new Opdracht4();
             opdracht.Start();
         }
     }

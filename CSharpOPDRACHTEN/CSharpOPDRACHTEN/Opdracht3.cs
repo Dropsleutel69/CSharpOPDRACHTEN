@@ -19,7 +19,7 @@ namespace CSharpOPDRACHTEN
             Console.WriteLine("Hoeveel graden is het?");
             if (!double.TryParse(Console.ReadLine(), out double temperatuur))
             {
-                Console.WriteLine("Ongeldige invoer, voer een getal in voor de temperatuur!"); 
+                Console.WriteLine("Ongeldige invoer, voer een getal in voor de temperatuur!");
             }
 
             if (input == "zonnig")
@@ -41,7 +41,7 @@ namespace CSharpOPDRACHTEN
             if (input == "bewolkt")
             {
                 if (temperatuur >= 20)
-                Console.WriteLine("Goed weer om buiten te zijn, ook zonder jas.");
+                    Console.WriteLine("Goed weer om buiten te zijn, ook zonder jas.");
                 else
                     Console.WriteLine("Het is koud en bewolkt, DOE JAS AAN!!!");
             }
@@ -49,3 +49,4 @@ namespace CSharpOPDRACHTEN
 
     }
 }
+
