@@ -8,7 +8,7 @@ namespace CSharpOPDRACHTEN
 {
     internal class Opdracht4
     {
-      public void Start()
+        public void Start()
         {
             Console.WriteLine("Wanneer ben je geboren? (dd-mm-jjjj)");
             string input = Console.ReadLine();
@@ -40,4 +40,5 @@ namespace CSharpOPDRACHTEN
             return leeftijd;
         }
     }
+}
 
